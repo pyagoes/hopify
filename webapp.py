@@ -12,8 +12,8 @@ from sklearn.metrics.pairwise import euclidean_distances
 import random
 
 # Spotify app credentials
-CLIENT_ID = '082a6c8cea8f48f7bc50c687cef53094'
-CLIENT_SECRET = 'edf5b55bb67f40b2be9b00b6b6d57fb8'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 REDIRECT_URI =  'http://localhost:8501/'
 
 # Database credentials
@@ -408,7 +408,7 @@ def artist_recommendations(user_id):
                     image_url = "image.jpg"
 
                     # Get YouTube video link for the song
-                    youtube_api_key = "AIzaSyATSqsxXw4x16KCaNcz8XYM0Wvq07ubKY8"
+                    youtube_api_key = ""
                     video_ids = youtube_search(song_name, artist_name, youtube_api_key)
                     youtube_link = f"https://www.youtube.com/watch?v={video_ids[0]}" if video_ids else "N/A"
 

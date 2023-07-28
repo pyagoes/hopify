@@ -6,7 +6,7 @@ Hopify Web App is a personalized music companion that utilizes the power of mach
 
 - **data:**
   - **data.csv:** This dataset has columns named UserID, SongID, and NoOfTimesPlayed. It gives information about the users' song interests.
-  - **df_ncf.csv:** This dataset has columns named UserID, SongID, and NoOfTimesPlayed and "Ratings". This dataset is used for training the model.
+  - **df_ncf.csv:** This dataset has columns named UserID, SongID, and NoOfTimesPlayed and Ratings. This dataset is used for training the model.
   - **unique_tracks.txt:** This dataset has columns TrackID, SongID, SongName, and ArtistName. This dataset is used to fetch the SongName and ArtistName based on the recommendations made by the SongID.
 
 - **model:**
